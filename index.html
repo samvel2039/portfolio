@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="tot">
+        <nav>
+            <span class="logo">PortFolio</span>
+            <label for="check"><i class="fa-solid fa-bars" id = "menubar" onclick="fun2()"></i></label> 
+            <input type="checkbox" name="checkbox" id="check">
+            <ul id="ul">
+                <li class="li"><a href="#1" class="link" >Home</a></li>
+                <li class="li"><a href="#about" class="link">About</a></li>
+                <li class="li" id="Service-link"><a href="#project" class="link">Project</a></li>
+                <!-- <li class="li"><a href="#skill" class="link">Skill</a></li> -->
+                <li class="li"><a href="#contact" class="link">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <div id="center">
+    
+            <!-- Home page -->
+    
+            <div id="main">
+                <div class="left">
+                    <div id="left-3">
+                        <h2>Hi I'm Sam</h2>
+                        <h1 class="animatedtext">Fullstack Developer</h1>
+                        <p>I am a fullstack developer My expertise lies in front-end development with HTML, CSS, and JavaScript, complemented by proficiency in backend technologies such as Node.js and MongoDB. I am passionate about creating engaging web experiences and eager to contribute my skills to innovative projects.</p> 
+                    </div>
+                    <div class="right">
+                        <img src="imges/Screenshot_20240528_195812_Instagram-removebg-preview.png" />
+                    </div>
+                </div>
+                <div class="btn-box">
+                    <a href="mailto:spj2039@gmail.com">Hire Me</a>
+                    <a href="tel:8680982039">Let's Talk</a>
+                </div>
+                
+
+                <div id="img-link-tot">
+                    <div class="img-link">
+                        <a href="https://www.facebook.com/sam.pj.98"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/samvel8680/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/sam__vel6"><i class="fa-brands fa-instagram"></i></a>
+                    </div>     
+                </div>
+            </div>
+
+            <!-- about page -->
+            <div class="about-par-div" id="about">
+                <div class="ab-first-child">
+                    <img src="imges/Screenshot_20240528_195812_Instagram-removebg-preview.png" id="ab-img"/>
+                </div>
+                <div class="ab-second-child">
+                    <h1 id="ab-h1">About Me</h1>
+                    <p id="about-para">Hello! I'm samvelu, a passionate web developer with a Bachelor’s degree in Computer Applications (BCA).My journey in the tech world began with a curiosity for coding, and it has evolved into a full-fledged career dedicated to creating seamless digital experiences.
+                    With a strong foundation in both front-end and back-end development, I specialize in crafting responsive websites and dynamic applications.I specialize in crafting responsive websites and dynamic applications.I believe in the power of continuous learning. I’m constantly exploring new technologies and frameworks to enhance my skills. My goal is to stay ahead of industry trends and apply the latest tools to deliver high-quality products.</p>
+                    <button type="submit" id="ab-btn">Hire Me</button>
+                </div>  
+            </div>
+            
+            <a href="#project" style="text-align: center; font-size: 25px; display: block; color: red; text-decoration: none;margin-top: 50px;">next</a>
+
+            <!--............ Project page........... -->
+
+            <div id="project">
+                <img src="imges/bakery Screenshot.jpg" alt="" class="same">
+                <img src="imges/portfolio Screenshot.jpg" alt="" class="same">
+                <img src="imges/e-commerce.jpg" alt="" class="same">
+                <img src="imges/sam and co.jpg" alt="" class="same">
+            </div>
+             
+            <a href="#contact" style="text-align: center; font-size: 25px; display: block; color: red; text-decoration: none; margin-top: 50px;">next</a>
+
+    
+            <!--........... contact page........... -->
+
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i>Contact@spj2039@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i>8680-9820-39</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/sam.pj.98"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://web.whatsapp.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                                <a href="https://www.linkedin.com/in/samvel8680/"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/sam__vel6"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                                <a href="imges/current resume.pdf" dowload="" class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form action="">
+                                <input type="text" name="Name" placeholder="your name" required>
+                                <input type="EMAIL" name="Email" placeholder="your email" required>
+                                <textarea name="Message" rows="6" id="" placeholder="your Message"></textarea>
+                                <button type="submit" class="btn btn2">submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+        </div>   
+        
+        <div class="copyright">
+            <p>Copyright &copy; sam.Made with<i class="fa-solid fa-heart"></i>by Sam</p>
+        </div>
+    </div>    
+            
+
+    <script>
+        let link = document.getElementsByClassName('link')
+        let ul = document.getElementById('ul');
+
+        for(i=0;i<link.length;i++){
+            link[i].setAttribute('onClick',`fun(${i})`)
+        }        
+        
+        function fun(a){
+            ul.style.left = "-1000px";
+        }
+
+        toggled = false;
+        function fun2(){
+            if(!toggled){
+                ul.style.left = "0px";
+                toggled = true;
+                return ;
+            }
+            if(toggled){
+                ul.style.left = "-1000px"; 
+                toggled = false;
+                return ;
+            }
+
+        }
+
+
+    </script>
+    
+           
+</body>
+</html>
